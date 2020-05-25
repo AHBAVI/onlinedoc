@@ -36,3 +36,12 @@ and also easy to use.
 3)Database
 
   SQL
+
+-------------------------
+To controlling dashboard
+
+url/cat/see/login/
+
+username: jashb
+password : ahb
+--------------------
