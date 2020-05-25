@@ -15,8 +15,9 @@ after that system will bring all related results to the that word.
 Also in formular category there are formulars related to sft and et subjects.
 ---------------------------------------------
 For best view.view the website from this link.
-
+----------------------------------------
 Link for the website : http://lime.ga/
+---
 >-----Benifits-----<
 Using this we can manage our time properly.
 and also easy to use.
@@ -36,6 +37,7 @@ and also easy to use.
 3)Database
 
   SQL
+  You can find .sql database file in database folder also database name is "lime".
 
 -------------------------
 To controlling dashboard
