@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  padding: 0px;
+  background-color: #efefef;
+}
+
+/* Darker background on mouse-over */
+.dbtn:hover {
+  background-color: RoyalBlue;
+}
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{ display:none; }
+#footer {
+   position: fixed;
+   /*left: 0;*/
+   bottom: 0;
+   width: 99.7%;
+   background-color: #24282F;
+   color: white;
+   text-align: center;
+   padding: 2px;
+
+}
+#footer:hover{
+   -webkit-animation-name: footer; /* Safari 4.0 - 8.0 */
+   -webkit-animation-play-state: running; /* Safari 4.0 - 8.0 */
+   animation-play-state: running;
+   animation-name: footer;
+   animation-duration: 3s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes footer {
+  from {background-color: #333;}
+  to {background-color: #008CBA;}
+}
+
+/* Standard syntax */
+@keyframes footer {
+  from {background-color: #333;}
+  to {background-color: #008CBA;}
+}
+
+
+
+@media screen and (max-width: 471px) {
+  #footer{
+    position: absolute;
+    background-color: #24282F;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    bottom:auto;
+    width: 99%;
+  }
+}
+@media screen and (max-height: 80000px) {
+  #footer{
+   position: fixed;
+   /*left: 0;*/
+   bottom: 0;
+   width: 100%;
+   background-color: #24282F;
+   color: white;
+   text-align: center;
+   padding: 2px;
+  }
+}
+@media screen and (max-height: 600px) {
+  #footer{
+    position: absolute;
+    background-color: #24282F;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    bottom:auto;
+    width: 100%;
+  }
+}
+
+
